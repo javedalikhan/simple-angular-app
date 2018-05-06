@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
+## Running on local machine
+`Prerequisite` - Node version above 8.X is installed on the machine.
+
+Run `npm install` to install all the dependencies of the project.
+Run `ng serve --open` to start the local server.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
