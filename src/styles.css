@@ -1,0 +1,113 @@
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+
+nav a , .back-button{
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #607D8B;
+  margin-right: 5px;
+  color: #fff;
+}
+nav a:visited, a:link {
+  color: #fff;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+  background-color: #888888;
+}
+
+.app-component {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.main-section {
+  width: 80%;
+  float: left;
+}
+.notification-section {
+  width:15%;
+  float:right;
+  border-left: 1px solid #CFD8DC;
+  height: 300px;
+  padding: 20px;
+}
+
+@media (max-width: 1024px) {
+  .main-section {
+    width: 100%;
+    clear: both;
+  }
+  .notification-section {
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px solid #CFD8DC;
+    border-left: none;
+    height: auto;
+    clear: both;
+  }
+}
+
+.app-component h1 {
+  font-family: Verdana;
+  font-size: x-large;
+  font-weight: bold;
+  color: darkcyan;
+  text-align: center;
+}
+.user-list {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.user-list>.user-header{
+  background: #1976d2;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+  color: #fff;
+  margin-bottom: 2px;
+  display: flex;
+  padding: 8px;
+}
+
+.user-header >img {
+  height: 48px;
+  width: 48px;
+}
+
+.user-header>.user-name {
+  color: #fff;
+  margin-left: 12px;
+  margin-top: 12px;
+  text-decoration: underline;
+}
+
+.user-detail-container {
+  margin-top: 20px;
+  border-left: 1px solid #CFD8DC;
+  padding: 10px;
+}
+.image-article {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #888888;
+  font-size: 20px;
+}
+.details-article input {
+  border: 1px solid #888888;
+  height: 24px;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom:10px;
+}
+

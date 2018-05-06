@@ -1,0 +1,7 @@
+<div class="main-section user-list">
+  <div *ngFor="let user of users" class="user-header" routerLink="/users/{{user.id}}">
+    <img src={{user.avatar}}>
+    <div class="user-name">{{user.first_name}} {{user.last_name}}</div>
+  </div>
+</div>
+

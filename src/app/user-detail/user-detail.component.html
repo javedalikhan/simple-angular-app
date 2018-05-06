@@ -1,0 +1,20 @@
+<section class="main-section">
+  <div class="user-detail-container">
+    <article class="image-article">
+      <img src={{user.avatar}}>
+      <div>{{user.first_name}} {{user.last_name}}</div>
+    </article>
+    <article class="details-article">
+      <div class="firstname">
+        <label>first name:
+          <input [(ngModel)]="user.first_name" placeholder="first name">
+        </label>
+      </div>
+      <div class="lastname">
+        <label>last name:
+          <input [(ngModel)]="user.last_name" placeholder="last name">
+        </label>
+      </div>
+    </article>
+  </div>
+</section>
