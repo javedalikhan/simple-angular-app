@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   heading = 'My first encounter with angular';
+  constructor(
+    private location: Location,
+  ) { }
+  handleBackButton() {
+    this.location.back();
+  }
 }

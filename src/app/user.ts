@@ -1,6 +1,15 @@
-export class User {
+export class UserAttr {
   id: number;
   first_name: string;
   last_name: string;
-  avtar: string;
+  avatar: string;
 }
+
+export class User {
+  data: UserAttr;
+}
+
+export class Users {
+  data: UserAttr[];
+}
+

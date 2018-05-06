@@ -1,3 +1,7 @@
 <section class="notification-section">
-Notification Area
+  <h2>Remarks</h2>
+  <div *ngIf="notificationService.notifications.length">
+    <div *ngFor='let notification of notificationService.notifications' class="notification-item"> {{notification}} </div>
+    <button class="clear" (click)="notificationService.clear()">clear</button>
+  </div>
 </section>
